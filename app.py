@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, render_template
+from app import app as application
 import sqlite3
 import os
 
